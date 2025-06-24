@@ -47,7 +47,7 @@ DESCRIBE Tracks;
 SELECT COUNT(*) AS total_rows FROM Tracks;
 SELECT * FROM Tracks LIMIT 5;
 
--- Top 10 tracks by Spotify streams:
+-- Top 30 tracks by Spotify streams:
 SELECT track_name, artist_name, streams
 FROM Tracks
 ORDER BY streams DESC
